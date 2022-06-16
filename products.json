@@ -6,7 +6,7 @@
       "price": "AED 166.95",
       "oldPrice": "AED 235.00",
       "availability": "Klickity",
-      "imageSrc": "https://static2.mumzworld.com/media/catalog/product/cache/6/thumbnail/440x/9366eac036987fff71082133898c5e3d/f/b/fbt-fa149-1-.jpg",
+      "imageSrc": "/images/fat-brain-toys.jpg",
       "imageAlt": "Fat Brain Toys - Klickity"
     },
     {
@@ -15,7 +15,7 @@
       "href": "#",
       "price": "AED 35.00",
       "availability": "Babys Wild Animal Book",
-      "imageSrc": "https://static2.mumzworld.com/media/catalog/product/cache/6/thumbnail/440x/9366eac036987fff71082133898c5e3d/b/d/bdm-e0047-hape-baby-s-wild-animal-book-1542197874.jpg",
+      "imageSrc": "/images/hape-babys-wild-animal-book.jpg",
       "imageAlt": "Hape - Babys Wild Animal Book"
     },
     {
@@ -25,7 +25,7 @@
       "price": "AED 47.78",
       "oldPrice": "AED 68.25",
       "availability": "Spiral Activity Hanging Animal Toys For",
-      "imageSrc": "https://static2.mumzworld.com/media/catalog/product/cache/6/thumbnail/440x/9366eac036987fff71082133898c5e3d/t/c/tc-mnbtrmx07-moon-spiral-activity-hanging-animal-toys-for-stroller-bed-1617182246.jpg",
+      "imageSrc": "/images/spiral-activity-hanging-animal-toys.jpg",
       "imageAlt":
         "MOON - Spiral Activity Hanging Animal Toys For Stroller & Bed"
     },
@@ -36,7 +36,7 @@
       "price": "AED 43.37",
       "oldPrice": "AED 61.95",
       "availability": "Friends Book Soft Pushchair Toy",
-      "imageSrc": "https://static2.mumzworld.com/media/catalog/product/cache/6/small_image/340x/9df78eab33525d08d6e5fb8d27136e95/t/c/tc-l27186-lamaze-friends-book-soft-pushchair-toy-1622083051.jpg",
+      "imageSrc": "/images/lamaze-friends-book-soft-pushchair.jpg",
       "imageAlt":
         "MOON - Spiral Activity Hanging Animal Toys For Stroller & Bed"
     }
