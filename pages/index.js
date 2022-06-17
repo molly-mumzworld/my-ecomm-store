@@ -334,7 +334,7 @@ export default function Home() {
               </form>
 
               <p className="flex-1 text-center text-sm font-medium text-white lg:flex-none">
-                Get free delivery on orders over $100
+                Get free delivery on orders over AED 200
               </p>
 
               <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
@@ -530,7 +530,7 @@ export default function Home() {
                     <img
                       src="/images/m-logos.svg"
                       alt=""
-                      className="h-10 w-auto"
+                      className="h-10w w-auto"
                     />
                   </a>
 
@@ -594,19 +594,31 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
-            <a key={product.id} href={product.href} className="group">
-              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <div key={product.id} className="group">
+              <a href={product.href}>
+                <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
                   className="w-full h-full object-center object-cover group-hover:opacity-75"
                 />
+                </div>
+                <h3 className="mt-4 text-sm text-gray-900 font-semibold">{product.name}</h3>
+                <p className="text-gray-500 h-12">{product.availability}</p>
+                <div className="h-12">
+                  <p className="mt-1 text-lg font-medium text-red-600">{product.price}</p>
+                  <p className="mt-1 text-sm line-through font-medium text-gray-500">{product.oldPrice}</p>
+                </div>
+              </a>
+              <div className="mt-6">
+                <a
+                  href={product.href}
+                  className="relative flex bg-gray-100 border border-transparent rounded-md py-2 px-8 items-center justify-center text-sm font-medium text-gray-900 hover:bg-gray-200"
+                >
+                  Add to bag<span className="sr-only">, {product.name}</span>
+                </a>
               </div>
-              <h3 className="mt-4 text-sm text-gray-900 font-semibold">{product.name}</h3>
-              <p className="text-gray-500">{product.availability}</p>
-              <p className="mt-1 text-lg font-medium text-red-600">{product.price}</p>
-              <p className="mt-1 text-sm line-through font-medium text-gray-500">{product.oldPrice}</p>
-            </a>
+            </div>
           ))}
         </div>
       </div>
